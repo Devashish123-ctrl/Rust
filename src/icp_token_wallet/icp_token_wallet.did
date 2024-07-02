@@ -1,0 +1,6 @@
+service : {
+  "transfer": (text, text, nat64) -> (bool);
+  "balance_of": (text) -> (nat64) query;
+  "send_tokens": (text, nat64) -> (bool);
+  "get_balance": () -> (nat64) query;
+}
